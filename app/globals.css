@@ -77,9 +77,16 @@
   }
 } */
 
-//REMOVE BG-BLACK< TO MAKE IT MORE VISIBLE
+/* //REMOVE BG-BLACK< TO MAKE IT MORE VISIBLE */
 @layer base {
   body {
-    @apply bg-black text-white;
+    @apply text-white bg-black;
   }
 }
+
+/* body {
+  padding: 0;
+  margin: 0;
+  background-color: #111;
+  color: white;
+} */

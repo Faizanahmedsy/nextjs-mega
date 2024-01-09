@@ -1,11 +1,12 @@
 {
   "name": "nextjs-mega",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "author": {
     "name": "Faizanahmed Saiyed",
     "email": "saiyed.faizanahmed1@gmail.com"
   },
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
